@@ -85,6 +85,13 @@ body {
     padding: 0px;
     margin: 0px;
 }
+#education-section-icon2 {
+    height: 14px;
+    width: 14px;
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
 
 #experience-section-title {
     display: inline;
@@ -118,4 +125,107 @@ p {
 
 #section3>h4{
     color: #FEFCFE;
+}
+ul.graphic-skill-list {
+    list-style-type: square;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+ul span{
+    color: #58595B;
+}
+
+.list1{
+    color: #327BA0;
+}
+.list2{
+    color: #40A4E2;
+}
+.list3{
+    color: #6AA330;
+}
+.list4{
+    color: #FFB329;
+}
+.list5{
+    color: #DF3101;
+}
+.container1{
+    display: flex;
+}
+#loading-bar-box1 {
+    height: 16.5px;
+    width: 222px;
+    background-color: #327BA0;
+    color: #FEFCFE;
+}
+
+#loading-bar-box2 {
+    height: 16.5px;
+    width: 28px;
+    background-color: #58595B;
+}
+
+.container2{
+    display: flex;
+}
+#loading-bar-box3 {
+    height: 16.5px;
+    width: 210px;
+    background-color: #327BA0;
+    color: #FEFCFE;
+}
+
+#loading-bar-box4 {
+    height: 16.5px;
+    width: 40px;
+    background-color: #58595B;
+}
+
+.container3{
+    display: flex;
+}
+#loading-bar-box5 {
+    height: 16.5px;
+    width: 230px;
+    background-color: #6AA330;
+    color: #FEFCFE;
+}
+
+#loading-bar-box6 {
+    height: 16.5px;
+    width: 20px;
+    background-color: #58595B;
+}
+.container4{
+    display: flex;
+}
+#loading-bar-box7 {
+    height: 16.5px;
+    width: 210px;
+    background-color: #FFB329;
+    color: #FEFCFE;
+}
+
+#loading-bar-box8 {
+    height: 16.5px;
+    width: 40px;
+    background-color: #58595B;
+}
+
+.container5{
+    display: flex;
+}
+#loading-bar-box9 {
+    height: 16.5px;
+    width: 150px;
+    background-color: #DF3101;
+    color: #FEFCFE;
+}
+
+#loading-bar-box10 {
+    height: 16.5px;
+    width: 100px;
+    background-color: #58595B;
 }
