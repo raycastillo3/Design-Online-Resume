@@ -21,25 +21,26 @@ body {
 }
 #box1 {
     flex: 1 0 auto;
-    /* border: 2px solid red; */
+    border: 2px solid red;
+    display: flex;
+
 }
 #box1>h2{
     color: #FEFCFE;
+    margin: 0px;
+    margin-left: 10px;
 }
 #box1>h3 {
     color: #5485A4;
-}
 
-#box1>img, #box1>h2, #box1>h3{
-    display: inline;
 }
 
 #box2 {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     flex: 0 0 320px;
 }
 #box3 {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     flex: 1 0 calc(100% - 10px);
 }
 
@@ -61,10 +62,9 @@ body {
 /* section2: Job description */
 #section2 {
     background-color: #282828;
-    /* border: 2px solid orange; */
     padding: 10px;
     /* Flexbox */
-    width: 700px;
+    width: 708px;
 }
 
 .experience-sections {
@@ -102,7 +102,7 @@ body {
     padding: 15px;
     padding-bottom: 0%;
     display: inline;
-   
+
 }
 .job-subtitle {
     color: #58595B;
@@ -117,7 +117,6 @@ p {
 /* section 3: skills */
 #section3 {
     background-color: #282828;
-    /* border: 2px solid purple; */
     padding: 10px;
     /* Flexbox */
     width: 252px;
@@ -157,6 +156,8 @@ ul span{
 #loading-bar-box1 {
     height: 16.5px;
     width: 222px;
+    font-weight: bold;
+    text-align: right;
     background-color: #327BA0;
     color: #FEFCFE;
 }
@@ -173,6 +174,8 @@ ul span{
 #loading-bar-box3 {
     height: 16.5px;
     width: 210px;
+    font-weight: bold;
+    text-align: right;
     background-color: #327BA0;
     color: #FEFCFE;
 }
@@ -189,6 +192,8 @@ ul span{
 #loading-bar-box5 {
     height: 16.5px;
     width: 230px;
+    font-weight: bold;
+    text-align: right;
     background-color: #6AA330;
     color: #FEFCFE;
 }
@@ -204,6 +209,8 @@ ul span{
 #loading-bar-box7 {
     height: 16.5px;
     width: 210px;
+    font-weight: bold;
+    text-align: right;
     background-color: #FFB329;
     color: #FEFCFE;
 }
@@ -220,6 +227,8 @@ ul span{
 #loading-bar-box9 {
     height: 16.5px;
     width: 150px;
+    font-weight: bold;
+    text-align: right;
     background-color: #DF3101;
     color: #FEFCFE;
 }
@@ -228,4 +237,129 @@ ul span{
     height: 16.5px;
     width: 100px;
     background-color: #58595B;
+}
+
+.language-skill-boxes-container1 {
+    display: flex;
+    gap: 5px;
+}
+
+#language-skill-title1{
+    margin: 0px;
+}
+
+#language-skill-box1 {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #327BA0;
+}
+#language-skill-box2 {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #327BA0;
+}
+#language-skill-box3 {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #327BA0;
+}
+#language-skill-box4 {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #327BA0;
+}
+#language-skill-box5 {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #0d2029;
+    border: 1px solid #ffff;
+}
+
+
+.language-skill-boxes-container2 {
+    display: flex;
+    gap: 5px;
+}
+
+#language-skill-title2{
+    margin: 0px;
+}
+
+#language-skill-box6 {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #6AA330;
+}
+#language-skill-box7 {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #6AA330;
+}
+#language-skill-box8 {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #6AA330;
+}
+#language-skill-box9 {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #0d2029;
+    border: 1px solid #ffff;
+}
+#language-skill-box10 {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #0d2029;
+    border: 1px solid #ffff;
+}
+
+.language-skill-boxes-container3{
+    display: flex;
+    gap: 5px;
+}
+
+#language-skill-title3{
+    margin: 0px;
+}
+
+#language-skill-box11 {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #FFB329;
+}
+#language-skill-box12 {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #FFB329;
+}
+#language-skill-box13 {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #FFB329;
+}
+#language-skill-box14 {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #FFB329;
+}
+#language-skill-box15 {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #0d2029;
+    border: 1px solid #ffff;
 }
